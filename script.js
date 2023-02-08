@@ -11,7 +11,7 @@ const lCase = "abcdefghijklmnopqrstuvwxyz";
 const empty = "";
 const number = "0123456789";
 const symbol = "!@#$%^&*=-_";
-
+ 
 submit.addEventListener("click", () => {
   let initialPassword = "";
   uppercase.checked ? (initialPassword += uCase) : "";
